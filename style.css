@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.now-playing {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.track-art {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+.track-name, .track-artist {
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.slider_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.seek_slider, .volume_slider {
+    width: 80%;
+}
